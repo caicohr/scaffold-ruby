@@ -1,0 +1,7 @@
+<p id="notice"><%= notice %></p>
+
+<%= render @monster %>
+
+<%= link_to 'Edit', edit_monster_path(@monster) %> |
+<%= link_to 'Delete', monster_path(@monster), method: :delete, data: {confirm: "Are you sure?"} %> |
+<%= link_to 'Back', monsters_path %>

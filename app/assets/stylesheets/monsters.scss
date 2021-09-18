@@ -1,0 +1,96 @@
+// Place all the styles related to the monsters controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.monster {
+    border: thick solid #000;
+    border-color: skyblue;
+    border-style: inset;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.monster p {
+    font-size: 16px;
+}
+.monsterdetail {
+    color:purple;
+    text-transform: capitalize;
+}
+.monsterrarity {
+    color: red;
+    
+}
+footer {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.name {
+    text-align:center;
+    margin:auto;
+}
+
+ul {
+    list-style-position: inside;
+}
+nav {
+    padding:0 0 20px 0;
+    font-size:20px;
+}
+nav a:link {
+  color: blue;
+}
+nav a:visited {
+  color: green;
+}
+nav a:hover {
+  color: #aa800e;
+}
+nav a:active {
+  color: red;
+}
+.mainLink a{
+    color:#aa800e;
+}
+a:hover {
+  color: #aa800e;
+}
+a:visited {
+    color:darkgreen;
+}
+.mainLink{
+    list-style-position: inside;
+}
+h1 {
+    padding: 0 0 0 50px;
+    font-family: 'Trocchi', serif;
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 48px;
+    margin: 0;
+    color: #9e1b34;
+}
+h2 {
+    text-align:center;
+    font-family: EB Garamond;
+    color: #9e1b34;
+}
+h4 {
+    color: #9e1b34;
+    font-family: EB Garamond;
+    text-transform: capitalize;
+}

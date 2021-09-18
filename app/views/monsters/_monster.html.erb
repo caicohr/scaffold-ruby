@@ -1,0 +1,22 @@
+<div class="monster">
+    <p>
+      <strong>Title:</strong>
+      <span class="monsterlink">
+        <%= link_to_unless_current monster.title, monster %>
+      </span>
+    </p>
+    
+    <p>
+      <strong>Detail:</strong>
+      <span class="monsterdetail">
+        <%= monster.detail %>
+      </span>
+    </p>
+    
+    <p>
+      <strong>Rarity:</strong>
+      <span class="monsterrarity">
+        <%= monster.rarity %>
+      </span>
+    </p>
+</div>
